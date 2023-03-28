@@ -5,8 +5,12 @@
   font-weight: bold;
 }
 
+
+
+
 html {
 	scroll-behavior: smooth;
+  background-color: #017eff;
 }
 
 .nav {
@@ -121,7 +125,9 @@ h2{
 /* bouton découvrir nos produits */
 .decouvrir {
   text-align: center;
+  padding-top: 10px;
 }
+
 
 .btn {
   position: relative;
@@ -299,3 +305,99 @@ footer{
   color: white;
 }
 /* fin footer*/
+
+.a_propos {
+font-size: 0px;
+}
+
+   /* responsive téléphone */
+@media (hover: none) { 
+
+  .container{
+    display: none;
+  }
+
+  ul {
+    display:none; 
+ }
+
+  .logo {
+  padding-left: 13%;
+  padding-top: 80%;
+  width: 707px;
+  height: 255px;
+  text-align: center;
+  }
+
+  .decouvrir {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  
+  .btn {
+    position: relative;
+    display: inline-block;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 120px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    background-color: white;
+    color: #198bfe;
+  }
+  
+
+  .nos_produits{
+    padding-top: 110%;
+    font-size: 80px;
+    padding-bottom: 30px;
+ }
+
+
+  p{
+    font-size: 30px;
+  }
+  .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-instagram {
+    padding-top: 25%;
+    text-align: center;
+    font-size: 50px;
+  }
+  .rounded-social-buttons .social-button {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 100%;
+  }
+  footer{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .a_propos {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+
+  .btn_a_propos {
+    position: relative;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border: 0;
+    border-radius: 120px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    background-color: white;
+    color: #198bfe;
+  }
+
+}
